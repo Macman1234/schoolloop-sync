@@ -2,15 +2,16 @@
   "name": "schoolloop-sync",
   "version": "1.0.0",
   "description": "reading schoolloop due dates and eventually putting them into a google calendar",
-  "main": "index.js",
+  "main": "/src/index.js",
   "repository": {
     "type": "git",
     "url": "https://www.github.com/macman1234/schoolloop-sync"
   },
   "dependencies" :
-  { "jsdom": "latest"
+  { "html-to-json": "latest"
   ,  "googleapis": "latest"
   ,  "google-auth-library": "latest"
+  ,  "js-beautify": "latest"
 },
   "author": "Maclean Parisi",
   "license": "MIT"
